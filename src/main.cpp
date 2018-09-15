@@ -47,7 +47,7 @@ void setup()
     configTime(gmtOffset_sec, daylightOffset_sec, ntpServer);
     printLocalTime();
 
-    //disconnect WiFi as it's no longer needed
+    
 
     Debug.begin("ESP32");
 }
